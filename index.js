@@ -7,6 +7,7 @@ module.exports = {
     'assertion-before-screenshot': require('./lib/rules/assertion-before-screenshot'),
     'require-data-selectors': require('./lib/rules/require-data-selectors'),
     'no-force': require('./lib/rules/no-force'),
+    'no-exclusive-tests': require('eslint-plugin-mocha').rules['no-exclusive-tests'],
   },
   configs: {
     recommended: require('./lib/config/recommended'),
